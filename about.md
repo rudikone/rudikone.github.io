@@ -2,44 +2,47 @@
 title: About
 layout: page
 ---
+
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Опытный backend-разработчик с фокусом как на продуктовой, так и на инфраструктурной разработке.
+Использую микросервисы и внедряю SRE-практики. 
+Tech lead продуктовых команд: code-review, менторинг, онбординг, проектирование архитектуры и БД.
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Ключевые достижения:
+- Разработанный мною плагин для проверки интеграций сэкономил миллионы рублей бизнес-линиям.
+- Разработал и внедрил мониторинг технических и бизнес-показателей.
+- Организатор книжного клуба для dev/QA.
+- Сертифицированный ментор.
+- Провожу собеседования (Java/Kotlin).
+- Ассистирую в Академии Бэкенда.</p>
 
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Tests)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
 	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>Java</li>
+	<li>Kotlin</li>
+	<li>Gradle</li>
+	<li>Maven</li>
+    <li>Spring Ecosystem</li>
+    <li>Spring AI</li>
+	<li>PostgreSQL</li>
+	<li>Kafka</li>
+	<li>Docker</li>
+	<li>K8s</li>
+	<li>Gitlab CI\CD</li>
 </ul>
 
-<h2>Projects</h2>
+<h2>Проекты</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://github.com/rudikone/avroschema-wizard-plugin">Avroschema-wizard-plugin (Gradle)</a></li>
+	<li><a href="https://github.com/rudikone/spring-boot-otel-tracing-example">Spring Boot OpenTelemetry</a></li>
+</ul>
+
+<h2>Статьи</h2>
+
+<ul>
+	<li><a href="https://habr.com/ru/articles/824594/">Тестирование асинхронного контракта Spring Boot приложения (Kafka Consumer+Producer)</a></li>
 </ul>
